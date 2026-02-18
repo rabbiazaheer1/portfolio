@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /wp-admin/
+
+Sitemap: https://rabbiazaheer.com/sitemap.xml
+
+# Google AdsBot
+User-agent: AdsBot-Google
+Allow: /
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /images/private/
+
+# Bing Bot
+User-agent: bingbot
+Allow: /
+Crawl-delay: 10
+
+# Yandex Bot
+User-agent: Yandex
+Allow: /
+Crawl-delay: 5
+
+# Baidu Bot
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 5

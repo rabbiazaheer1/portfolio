@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Rabbia Zaheer | Frontend & WordPress Developer</title>
+    
+    <!-- ===== SEO META TAGS ===== -->
+    <meta name="description" content="Professional Frontend Developer & WordPress Specialist with expertise in HTML5, CSS3, JavaScript, React, Vue.js and WordPress development. Creating modern web solutions with cutting-edge technology.">
+    <meta name="keywords" content="Frontend Developer, WordPress Developer, HTML5, CSS3, JavaScript, React, Vue.js, Web Development, Pakistan Developer, GujarKhan, Web Designer, Portfolio">
+    <meta name="author" content="Rabbia Zaheer">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Rabbia Zaheer | Frontend & WordPress Developer">
+    <meta property="og:description" content="Professional Frontend & WordPress Developer creating modern web solutions">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rabbiazaheer.com">
+    <meta property="og:image" content="https://rabbiazaheer.com/images/og-image.jpg">
+    <meta property="og:site_name" content="Rabbia Zaheer Portfolio">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rabbia Zaheer | Frontend & WordPress Developer">
+    <meta name="twitter:description" content="Professional Frontend & WordPress Developer creating modern web solutions">
+    <meta name="twitter:image" content="https://rabbiazaheer.com/images/twitter-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://rabbiazaheer.com">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_AD_CLIENT_ID" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Animated Loader -->
+    <div id="loader">
+        <div class="logo-loader">
+            <div class="logo-circle"></div>
+            <div class="logo-circle"></div>
+            <div class="logo-circle"></div>
+            <div class="logo-text">RABBIA</div>
+        </div>
+    </div>
+
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923099511155" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <a href="#" class="logo">RABBIA</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#about" class="nav-link" onclick="closeMobileMenu()">About</a>
+            <a href="#skills" class="nav-link" onclick="closeMobileMenu()">Skills</a>
+            <a href="#projects" class="nav-link" onclick="closeMobileMenu()">Projects</a>
+            <a href="#contact" class="nav-link" onclick="closeMobileMenu()">Contact</a>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">Rabbia Zaheer</h1>
+                <p class="hero-subtitle">Frontend Developer & WordPress Specialist creating cutting-edge digital experiences with modern web technologies.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="cta-button cta-primary">View My Work</a>
+                    <a href="#contact" class="cta-button cta-secondary">Hire Me</a>
+                </div>
+                <div class="direct-contact-links">
+                    <a href="https://wa.me/923099511155" class="direct-contact" target="_blank">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Direct
+                    </a>
+                    <a href="mailto:rabbiazaheer8@gmail.com" class="direct-contact email-direct">
+                        <i class="fas fa-envelope"></i> Email Direct
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <span class="scroll-text">SCROLL TO EXPLORE</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Rabbia Zaheer, a passionate frontend developer and WordPress expert with 2+ years of experience crafting beautiful, functional websites and web applications.</p>
+                    <p>I specialize in creating responsive, user-friendly interfaces using modern technologies like React, Vue.js, and WordPress. My approach combines aesthetic design with clean, efficient code to deliver exceptional digital experiences.</p>
+                    <p>When I'm not coding, you can find me exploring new web technologies, contributing to open-source projects, or sharing my knowledge with the developer community.</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h3 class="skill-title">Frontend</h3>
+                        </div>
+                        <div class="skill-items">
+                            <span class="skill-item"><i class="fab fa-html5"></i> HTML5</span>
+                            <span class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</span>
+                            <span class="skill-item"><i class="fab fa-js"></i> JavaScript</span>
+                            <span class="skill-item"><i class="fab fa-react"></i> React</span>
+                            <span class="skill-item"><i class="fab fa-vuejs"></i> Vue.js</span>
+                            <span class="skill-item"><i class="fas fa-bolt"></i> GSAP</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">
+                                <i class="fab fa-wordpress"></i>
+                            </div>
+                            <h3 class="skill-title">WordPress</h3>
+                        </div>
+                        <div class="skill-items">
+                            <span class="skill-item"><i class="fas fa-paint-brush"></i> Theme Dev</span>
+                            <span class="skill-item"><i class="fas fa-plug"></i> Plugin Dev</span>
+                            <span class="skill-item"><i class="fas fa-store"></i> WooCommerce</span>
+                            <span class="skill-item"><i class="fas fa-cube"></i> Gutenberg</span>
+                            <span class="skill-item"><i class="fas fa-project-diagram"></i> Headless WP</span>
+                            <span class="skill-item"><i class="fas fa-tachometer-alt"></i> Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3 class="skill-title">Frontend Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-item"><i class="fab fa-html5"></i> HTML5</span>
+                        <span class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span class="skill-item"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-item"><i class="fab fa-react"></i> React</span>
+                        <span class="skill-item"><i class="fab fa-vuejs"></i> Vue.js</span>
+                        <span class="skill-item"><i class="fas fa-bolt"></i> GSAP</span>
+                        <span class="skill-item"><i class="fab fa-sass"></i> SASS</span>
+                        <span class="skill-item"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                        <h3 class="skill-title">WordPress Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-item"><i class="fas fa-paint-brush"></i> Theme Dev</span>
+                        <span class="skill-item"><i class="fas fa-plug"></i> Plugin Dev</span>
+                        <span class="skill-item"><i class="fas fa-store"></i> WooCommerce</span>
+                        <span class="skill-item"><i class="fas fa-cube"></i> Gutenberg</span>
+                        <span class="skill-item"><i class="fas fa-project-diagram"></i> Headless WP</span>
+                        <span class="skill-item"><i class="fas fa-tachometer-alt"></i> Optimization</span>
+                        <span class="skill-item"><i class="fab fa-php"></i> PHP</span>
+                        <span class="skill-item"><i class="fas fa-database"></i> MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="skill-title">Tools & Technologies</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-item"><i class="fab fa-git-alt"></i> Git</span>
+                        <span class="skill-item"><i class="fab fa-github"></i> GitHub</span>
+                        <span class="skill-item"><i class="fab fa-npm"></i> NPM</span>
+                        <span class="skill-item"><i class="fas fa-code"></i> VS Code</span>
+                        <span class="skill-item"><i class="fab fa-chrome"></i> Chrome DevTools</span>
+                        <span class="skill-item"><i class="fas fa-palette"></i> Figma</span>
+                        <span class="skill-item"><i class="fas fa-rocket"></i> Netlify</span>
+                        <span class="skill-item"><i class="fab fa-digital-ocean"></i> cPanel</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Modern Dashboard - Web Development Project" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Quantum Dashboard</h3>
+                        <p class="project-description">A futuristic admin dashboard with real-time analytics and interactive data visualization built with React and D3.js.</p>
+                        <div class="project-tech">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">D3.js</span>
+                            <span class="tech-item">Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="WordPress Theme Development" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">Neon WP Theme</h3>
+                        <p class="project-description">A modern WordPress theme with dark mode, custom blocks, and performance optimizations for maximum speed.</p>
+                        <div class="project-tech">
+                            <span class="tech-item">WordPress</span>
+                            <span class="tech-item">PHP</span>
+                            <span class="tech-item">SASS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 - Wordexplore -->
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="WordExplore Dictionary Website" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-title">WordExplore Dictionary</h3>
+                        <p class="project-description">An interactive dictionary website with word definitions, synonyms, antonyms, and pronunciation features.</p>
+                        <div class="project-tech">
+                            <span class="tech-item">HTML5</span>
+                            <span class="tech-item">CSS3</span>
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://wordexplore.netlify.app" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Payment Methods Section -->
+        <section class="payment-section">
+            <h2 class="section-title">Payment Methods</h2>
+            <p style="margin-bottom: 40px; font-size: 1.1rem; opacity: 0.9;">Secure and convenient payment options available for all services.</p>
+            <div class="payment-methods">
+                <div class="payment-method">
+                    <div class="payment-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="payment-name">JazzCash</h3>
+                    <p>Fast & Secure</p>
+                </div>
+                <div class="payment-method">
+                    <div class="payment-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3 class="payment-name">Bank Transfer</h3>
+                    <p>Direct Bank Deposit</p>
+                </div>
+                <div class="payment-method">
+                    <div class="payment-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3 class="payment-name">EasyPaisa</h3>
+                    <p>Instant Payment</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <a href="mailto:rabbiazaheer8@gmail.com">rabbiazaheer8@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone / WhatsApp</h3>
+                            <a href="tel:+923099511155">+92 309 9511155</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>GujarKhan, Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Payment Methods</h3>
+                            <p>JazzCash, EasyPaisa, Bank Transfer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" class="form-textarea" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <div class="direct-contact-links">
+                <a href="https://wa.me/923099511155" class="direct-contact" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: +92 309 9511155
+                </a>
+                <a href="mailto:rabbiazaheer8@gmail.com" class="direct-contact email-direct">
+                    <i class="fas fa-envelope"></i> Email: rabbiazaheer8@gmail.com
+                </a>
+            </div>
+            <p class="copyright">© 2023 Rabbia Zaheer. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</body>
+</html>
