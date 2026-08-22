@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rabbia Zaheer | Frontend & WordPress Developer</title>
+  <meta name="description" content="Professional Frontend Developer & WordPress Specialist creating modern web solutions." />
+  <meta name="author" content="Rabbia Zaheer" />
+  <meta name="robots" content="index, follow" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    window.addEventListener("load", function () {
+      if (window.particlesJS) {
+        particlesJS("particles-js", {
+          particles: { number: { value: 100, density: { enable: true, value_area: 800 } },
+            color: { value: "#00f7ff" }, shape: { type: "circle" },
+            opacity: { value: 0.5, random: true }, size: { value: 3, random: true },
+            line_linked: { enable: true, distance: 150, color: "#00f7ff", opacity: 0.2, width: 1 },
+            move: { enable: true, speed: 1, direction: "none", random: true, out_mode: "out" } },
+          interactivity: { detect_on: "canvas", events: { onhover: { enable: true, mode: "repulse" }, onclick: { enable: true, mode: "push" } } }
+        });
+      }
+    });
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
